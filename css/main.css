@@ -38,7 +38,9 @@ body {
 	display: none;
 }
 
-
+.container{
+	width: 752px; margin: auto;
+}
 /** ***************** Ярмолюк ***************** **/
 /** ***************** Ярмолюк ***************** **/
 
@@ -52,6 +54,45 @@ body {
 
 
 /** ***************** Стефанюк ***************** **/
+.headerstext a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   	color: deepskyblue;
+   }
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 3px 20px 5px 0px; /* Отступы вокруг картинки */
+   }
+.leftblock {
+	width: 495px;
+    float:left; /* Выравнивание по левому краю */
+    margin: -20px 20px 5px 0px; /* Отступы вокруг картинки */
+   }
+.block_wrapper{
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-start;
+}
+.textout{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.textin{
+	font-size: 0.7em;
+	color: dimgray;
+}
+.righttxt a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   	color: deepskyblue;
+   }
+#widget{
+	text-align: center;
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   	color: black;
+	float:left; /* Выравнивание по левому краю */
+    margin: 0px 20px 0px 0px; /* Отступы вокруг картинки */
+    background: darkgray;
+    padding: 70px 40px 250px 40px;
+}
 /** ***************** Стефанюк ***************** **/
 
 
